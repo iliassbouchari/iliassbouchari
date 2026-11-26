@@ -1,68 +1,98 @@
 <div align="center">
 
+<img src="wabi-banner.svg" width="100%" alt="WABI - Systems and Networks Technician, Cybersecurity, Aspiring SOC analyst">
+
 # Iliass Bouchari
 
 **Systems and Networks Technician · Cybersecurity · Aspiring SOC analyst**
 
 Student in Cyber Security and Digital Trust · 850+ PCs managed · Casablanca
 
-![Open to internships](https://img.shields.io/badge/Open%20to-internships-2ea043?style=for-the-badge)
-![Location](https://img.shields.io/badge/Casablanca-Morocco-16171b?style=for-the-badge)
-[![Portfolio](https://img.shields.io/badge/Portfolio-iliassbouchari.github.io-f08a3c?style=for-the-badge)](https://iliassbouchari.github.io/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-iliassbouchari-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iliassbouchari)
-[![Credly](https://img.shields.io/badge/Credly-CCNA%20badges-1f5fd6?style=for-the-badge)](https://www.credly.com/users/iliass-bouchari/badges/credly)
+<a href="mailto:Bouchariliass@gmail.com"><img src="https://img.shields.io/badge/OPEN%20TO-INTERNSHIPS-fbefd5?style=for-the-badge&labelColor=7d0000" alt="Open to internships"></a>
+<img src="https://img.shields.io/badge/LOCATION-CASABLANCA%2C%20MOROCCO-fbefd5?style=for-the-badge&labelColor=7d0000" alt="Casablanca, Morocco">
+<a href="https://iliassbouchari.github.io/"><img src="https://img.shields.io/badge/PORTFOLIO-ILIASSBOUCHARI.GITHUB.IO-ffd98a?style=for-the-badge&labelColor=7d0000" alt="Portfolio"></a>
+<a href="https://www.linkedin.com/in/iliassbouchari/"><img src="https://img.shields.io/badge/LINKEDIN-ILIASSBOUCHARI-fbefd5?style=for-the-badge&labelColor=7d0000" alt="LinkedIn"></a>
+<a href="https://www.credly.com/users/iliass-bouchari/badges/credly"><img src="https://img.shields.io/badge/CREDLY-CCNA%20BADGES-ffd98a?style=for-the-badge&labelColor=7d0000" alt="Credly CCNA badges"></a>
 
 </div>
 
+---
+
 ## About me
+
+<div align="center">
+<img src="wabi-idcard.svg" width="100%" alt="Identity card: Iliass Bouchari (WABI), Systems and Networks Technician, Cybersecurity, aspiring SOC analyst. B.Sc Cyber Security and Digital Trust, 850+ PCs managed at CMC, CCNA x3 and next CCNP, goal SOC analyst with Wazuh, French A2 and English B2, Casablanca, open to internships.">
+</div>
+
+<details>
+<summary>Plain-text version</summary>
 
 Student in the Bachelor's degree in Cyber Security and Digital Trust (FPSB), and a systems and networks technician. I like building and securing real infrastructure: Active Directory, Cisco networks, Fortinet firewalls and automation that saves time on the ground.
 
-- 🏫 Currently managing **850+ PCs** on the CMC campus domain (Jan to Jun 2026)
-- 🛡️ Working with **Fortinet, Cisco and Windows Server** every day
-- 🎓 Three **Cisco CCNA** levels, with verified Credly badges. Next: **CCNP**
-- 🎯 Goal: **SOC analyst**, using **Wazuh** (SIEM)
-- 🌍 French (A2) and English (B2)
-- 📫 Reach me: [Bouchariliass@gmail.com](mailto:Bouchariliass@gmail.com)
+-  Currently managing **850+ PCs** on the CMC campus domain (Jan to Jun 2026)
+-  Working with **Fortinet, Cisco and Windows Server** every day
+-  Three **Cisco CCNA** levels, with verified Credly badges. Next: **CCNP**
+-  Goal: **SOC analyst**, using **Wazuh** (SIEM)
+-  French (A2) and English (B2)
+-  Reach me: [Bouchariliass@gmail.com](mailto:Bouchariliass@gmail.com)
+
+</details>
 
 ## Tech stack
 
-![Cisco](https://img.shields.io/badge/Cisco-049fd9?style=flat-square)
-![Fortinet](https://img.shields.io/badge/Fortinet-ee3124?style=flat-square&logo=fortinet&logoColor=white)
-![Windows Server](https://img.shields.io/badge/Windows%20Server-0078d4?style=flat-square&logo=windows&logoColor=white)
-![Active Directory](https://img.shields.io/badge/Active%20Directory-0078d4?style=flat-square)
-![PowerShell](https://img.shields.io/badge/PowerShell-5391fe?style=flat-square&logo=powershell&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ed?style=flat-square&logo=docker&logoColor=white)
-![Proxmox](https://img.shields.io/badge/Proxmox-e57000?style=flat-square&logo=proxmox&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-e95420?style=flat-square&logo=ubuntu&logoColor=white)
-![Red Hat](https://img.shields.io/badge/Red%20Hat-ee0000?style=flat-square&logo=redhat&logoColor=white)
-![Zabbix](https://img.shields.io/badge/Zabbix-d40000?style=flat-square&logo=zabbix&logoColor=white)
-![Wazuh](https://img.shields.io/badge/Wazuh-005571?style=flat-square)
-![VMware ESXi](https://img.shields.io/badge/ESXi-607078?style=flat-square&logo=vmware&logoColor=white)
+<div align="center">
+<img src="wabi-stack.svg" width="100%" alt="Tech stack: Cisco, Fortinet, Windows Server, Active Directory, PowerShell, Docker, Proxmox, Ubuntu, Red Hat, Zabbix, Wazuh, VMware ESXi">
+</div>
 
-## Experience
+## Infrastructure I work with
+
+<div align="center">
+<img src="wabi-network.svg" width="100%" alt="Animated network topology: Internet, FortiGate, Cisco core, server and campus switches, AD, Wazuh, Proxmox, Zabbix and PC sectors">
+</div>
+
+## Experience, projects and labs
+
+<div align="center">
+<img src="wabi-terminal.svg" width="100%" alt="PowerShell terminal listing experience at CMC, Cité des Métiers and KAEFER, and five projects">
+</div>
+
+<details>
+<summary>Plain-text version</summary>
+
+**Experience**
 
 | When | Where | What |
-| --- | --- | --- |
+|---|---|---|
 | Jan to Jun 2026 | CMC | Campus domain, workstation hardening, GPO deployment, helpdesk |
 | Jul to Oct 2025 | Cité des Métiers | Systems and networks internship |
 | Jul to Aug 2024 | KAEFER | First internship |
 
-## Projects and labs
+**Projects and labs**
 
-- **Active Directory domain for the CMC campus**: one domain, OUs per sector and room, a naming scheme for every workstation.
-- **PowerShell domain-join automation**: a USB script sets DNS, renames the PC and joins the domain. About 20 min down to under 3 per PC.
-- **Software deployment with GPO**: silent MSI/EXE installs per sector, Office 365 removal and Office 2016 rollout.
-- **Workstation security hardening**: WinRE and CMD access blocked, HP BIOS passwords and local accounts managed by script and GPO.
-- **FortiGate firewall introduction**: FortiOS interface, logs, security policies and dashboard.
+- **Active Directory domain for the CMC campus:** one domain, OUs per sector and room, a naming scheme for every workstation.
+- **PowerShell domain-join automation:** a USB script sets DNS, renames the PC and joins the domain. About 20 min down to under 3 per PC.
+- **Software deployment with GPO:** silent MSI/EXE installs per sector, Office 365 removal and Office 2016 rollout.
+- **Workstation security hardening:** WinRE and CMD access blocked, HP BIOS passwords and local accounts managed by script and GPO.
+- **FortiGate firewall introduction:** FortiOS interface, logs, security policies and dashboard.
 
-Write-ups are on the [portfolio](https://iliassbouchari.github.io/).
+Write-ups are on the [portfolio](https://iliassbouchari.github.io).
 
-## Terminal
+</details>
 
-```console
-iliass@casablanca:~$ whoami
-iliass bouchari: systems, networks, cybersecurity
-iliass@casablanca:~$ cat status.txt
-open to internships, hands-on, ready to start
-```
+
+## GitHub activity
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=iliassbouchari&show_icons=true&hide_border=false&bg_color=0c0808&title_color=fbefd5&text_color=fbefd5&icon_color=ffd98a&border_color=7d0000" alt="GitHub stats">
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=iliassbouchari&background=0C0808&border=7D0000&ring=FFD98A&fire=B30D0D&currStreakNum=FBEFD5&currStreakLabel=FFD98A&sideNums=FBEFD5&sideLabels=FBEFD5&dates=FBEFD5" alt="GitHub streak">
+
+</div>
+
+---
+
+<div align="center">
+
+<a href="mailto:Bouchariliass@gmail.com"><img src="https://img.shields.io/badge/LET'S%20TALK-BOUCHARILIASS%40GMAIL.COM-fbefd5?style=for-the-badge&labelColor=7d0000" alt="Email me"></a>
+
+</div>
