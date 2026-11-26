@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 240" width="1280" height="240" xmlns:c2pa="http://c2pa.org/manifest">
+<defs>
+<radialGradient id="bg" cx="50%" cy="55%" r="80%"><stop offset="0" stop-color="#c70b0b"/><stop offset=".6" stop-color="#a90606"/><stop offset="1" stop-color="#7d0000"/></radialGradient>
+<linearGradient id="top" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fffaf0"/><stop offset="1" stop-color="#f1dcb3"/></linearGradient>
+<linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter>
+<filter id="soft" x="-30%" y="-100%" width="160%" height="300%"><feGaussianBlur stdDeviation="5"/></filter>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#fbefd5" stroke-opacity=".06"/></pattern>
+</defs>
+<style>
+text{font-family:Consolas,'Cascadia Mono','Lucida Console','DejaVu Sans Mono',monospace}
+.pop{transform-box:fill-box;transform-origin:50% 100%;opacity:0;animation-duration:12s;animation-iteration-count:infinite;animation-timing-function:cubic-bezier(.2,1.4,.4,1)}
+.bob{animation:bob 3s ease-in-out infinite alternate}
+@keyframes bob{0%{transform:translateY(-5px)}100%{transform:translateY(5px)}}
+.pulse{animation:pl 2.4s ease-in-out infinite alternate}
+@keyframes pl{0%{opacity:.25}100%{opacity:.7}}
+.sh{opacity:0;animation:shn 12s linear infinite}
+@keyframes shn{0%,2%{opacity:0}4%{opacity:.55}9%,100%{opacity:0}}
+.title{animation:tt 12s ease-out infinite}
+@keyframes tt{0%,2%{opacity:0}8%,93%{opacity:1}100%{opacity:0}}
+.cur{animation:bl 1s steps(1) infinite}@keyframes bl{50%{opacity:0}}
+@keyframes p0{0%,4%{opacity:0;transform:translateY(40px) scale(.4)}11%,93%{opacity:1;transform:none}100%{opacity:0;transform:none}}
+@keyframes p1{0%,8%{opacity:0;transform:translateY(40px) scale(.4)}15%,93%{opacity:1;transform:none}100%{opacity:0;transform:none}}
+@keyframes p2{0%,12%{opacity:0;transform:translateY(40px) scale(.4)}19%,93%{opacity:1;transform:none}100%{opacity:0;transform:none}}
+@keyframes p3{0%,16%{opacity:0;transform:translateY(40px) scale(.4)}23%,93%{opacity:1;transform:none}100%{opacity:0;transform:none}}
+@keyframes p4{0%,20%{opacity:0;transform:translateY(40px) scale(.4)}27%,93%{opacity:1;transform:none}100%{opacity:0;transform:none}}
+@keyframes p5{0%,24%{opacity:0;transform:translateY(40px) scale(.4)}31%,93%{opacity:1;transform:none}100%{opacity:0;transform:none}}
+@keyframes p6{0%,28%{opacity:0;transform:translateY(40px) scale(.4)}35%,93%{opacity:1;transform:none}100%{opacity:0;transform:none}}
+</style>
+<rect width="1280" height="240" fill="url(#bg)"/>
+<rect width="1280" height="240" fill="url(#grid)"/>
+<g class="title"><text x="36" y="38" font-size="15" letter-spacing="2" fill="#fbefd5" fill-opacity=".85">$ ls ./tech-stack<tspan class="cur">_</tspan></text></g>
+<g class="pop" style="animation-name:p0">
+<ellipse cx="148.0" cy="202" rx="61" ry="9" fill="#2a0000" opacity=".45" filter="url(#soft)"/>
+<g class="bob" style="animation-delay:-0.00s">
+<polygon points="148.0,58.0 203.4,90.0 203.4,154.0 148.0,186.0 92.6,154.0 92.6,90.0" fill="#ffd98a" opacity=".55" filter="url(#glow)" class="pulse" style="animation-delay:-0.0s"/>
+<polygon points="92.6,90.0 148.0,122.0 148.0,186.0 92.6,154.0" fill="#7d0000" stroke="#fbefd5" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="148.0,122.0 203.4,90.0 203.4,154.0 148.0,186.0" fill="#b30d0d" stroke="#fbefd5" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="148.0,58.0 203.4,90.0 148.0,122.0 92.6,90.0" fill="url(#top)" stroke="#fbefd5" stroke-width="1.5" stroke-linejoin="round"/>
+<g transform="translate(92.6,90.0) matrix(.866,-.5,.866,.5,0,0)"><text x="32.0" y="32.0" dy=".35em" text-anchor="middle" font-size="28.0" font-weight="700" fill="#6b0000">AD</text></g>
+<g transform="translate(92.6,90.0) matrix(1,.5774,0,1,0,0)"><text x="27.7" y="36.0" text-anchor="middle" font-size="11.0" font-weight="700" fill="#fbefd5" letter-spacing=".5">ACTIVE</text></g>
+<g transform="translate(148.0,122.0) matrix(1,-.5774,0,1,0,0)"><text x="27.7" y="36.0" text-anchor="middle" font-size="9.0" font-weight="700" fill="#fbefd5" letter-spacing=".5">DIRECTORY</text></g>
+<polygon points="148.0,58.0 203.4,90.0 148.0,122.0 92.6,90.0" fill="url(#sheen)" class="sh" style="animation-delay:0.78s"/>
+</g></g><g class="pop" style="animation-name:p1">
+<ellipse cx="312.0" cy="202" rx="61" ry="9" fill="#2a0000" opacity=".45" filter="url(#soft)"/>
+<g class="bob" style="animation-delay:-0.55s">
+<polygon points="312.0,58.0 367.4,90.0 367.4,154.0 312.0,186.0 256.6,154.0 256.6,90.0" fill="#ffd98a" opacity=".55" filter="url(#glow)" class="pulse" style="animation-delay:-0.4s"/>
+<polygon points="256.6,90.0 312.0,122.0 312.0,186.0 256.6,154.0" fill="#7d0000" stroke="#fbefd5" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="312.0,122.0 367.4,90.0 367.4,154.0 312.0,186.0" fill="#b30d0d" stroke="#fbefd5" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="312.0,58.0 367.4,90.0 312.0,122.0 256.6,90.0" fill="url(#top)" stroke="#fbefd5" stroke-width="1.5" stroke-linejoin="round"/>
+<g transform="translate(256.6,90.0) matrix(.866,-.5,.866,.5,0,0)"><text x="32.0" y="32.0" dy=".35em" text-anchor="middle" font-size="28.0" font-weight="700" fill="#6b0000">WS</text></g>
+<g transform="translate(256.6,90.0) matrix(1,.5774,0,1,0,0)"><text x="27.7" y="36.0" text-anchor="middle" font-size="11.0" font-weight="700" fill="#fbefd5" letter-spacing=".5">WINDOWS</text></g>
+<g transform="translate(312.0,122.0) matrix(1,-.5774,0,1,0,0)"><text x="27.7" y="36.0" text-anchor="middle" font-size="11.0" font-weight="700" fill="#fbefd5" letter-spacing=".5">SERVER</text></g>
+<polygon points="312.0,58.0 367.4,90.0 312.0,122.0 256.6,90.0" fill="url(#sheen)" class="sh" style="animation-delay:1.26s"/>
+</g></g><g class="pop" style="animation-name:p2">
+<ellipse cx="476.0" cy="202" rx="61" ry="9" fill="#2a0000" opacity=".45" filter="url(#soft)"/>
+<g class="bob" style="animation-delay:-1.10s">
+<polygon points="476.0,58.0 531.4,90.0 531.4,154.0 476.0,186.0 420.6,154.0 420.6,90.0" fill="#ffd98a" opacity=".55" filter="url(#glow)" class="pulse" style="animation-delay:-0.8s"/>
+<polygon points="420.6,90.0 476.0,122.0 476.0,186.0 420.6,154.0" fill="#7d0000" stroke="#fbefd5" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="476.0,122.0 531.4,90.0 531.4,154.0 476.0,186.0" fill="#b30d0d" stroke="#fbefd5" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="476.0,58.0 531.4,90.0 476.0,122.0 420.6,90.0" fill="url(#top)" stroke="#fbefd5" stroke-width="1.5" stroke-linejoin="round"/>
+<g transform="translate(420.6,90.0) matrix(.866,-.5,.866,.5,0,0)"><text x="32.0" y="32.0" dy=".35em" text-anchor="middle" font-size="28.0" font-weight="700" fill="#6b0000">&gt;_</text></g>
+<g transform="translate(420.6,90.0) matrix(1,.5774,0,1,0,0)"><text x="27.7" y="36.0" text-anchor="middle" font-size="11.0" font-weight="700" fill="#fbefd5" letter-spacing=".5">POWER</text></g>
+<g transform="translate(476.0,122.0) matrix(1,-.5774,0,1,0,0)"><text x="27.7" y="36.0" text-anchor="middle" font-size="11.0" font-weight="700" fill="#fbefd5" letter-spacing=".5">SHELL</text></g>
+<polygon points="476.0,58.0 531.4,90.0 476.0,122.0 420.6,90.0" fill="url(#sheen)" class="sh" style="animation-delay:1.74s"/>
+</g></g><g class="pop" style="animation-name:p3">
+<ellipse cx="640.0" cy="202" rx="61" ry="9" fill="#2a0000" opacity=".45" filter="url(#soft)"/>
+<g class="bob" style="animation-delay:-1.65s">
+<polygon points="640.0,58.0 695.4,90.0 695.4,154.0 640.0,186.0 584.6,154.0 584.6,90.0" fill="#ffd98a" opacity=".55" filter="url(#glow)" class="pulse" style="animation-delay:-1.2s"/>
+<polygon points="584.6,90.0 640.0,122.0 640.0,186.0 584.6,154.0" fill="#7d0000" stroke="#fbefd5" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="640.0,122.0 695.4,90.0 695.4,154.0 640.0,186.0" fill="#b30d0d" stroke="#fbefd5" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="640.0,58.0 695.4,90.0 640.0,122.0 584.6,90.0" fill="url(#top)" stroke="#fbefd5" stroke-width="1.5" stroke-linejoin="round"/>
+<g transform="translate(584.6,90.0) matrix(.866,-.5,.866,.5,0,0)"><text x="32.0" y="32.0" dy=".35em" text-anchor="middle" font-size="28.0" font-weight="700" fill="#6b0000">GPO</text></g>
+<g transform="translate(584.6,90.0) matrix(1,.5774,0,1,0,0)"><text x="27.7" y="36.0" text-anchor="middle" font-size="11.0" font-weight="700" fill="#fbefd5" letter-spacing=".5">GROUP</text></g>
+<g transform="translate(640.0,122.0) matrix(1,-.5774,0,1,0,0)"><text x="27.7" y="36.0" text-anchor="middle" font-size="11.0" font-weight="700" fill="#fbefd5" letter-spacing=".5">POLICY</text></g>
+<polygon points="640.0,58.0 695.4,90.0 640.0,122.0 584.6,90.0" fill="url(#sheen)" class="sh" style="animation-delay:2.22s"/>
+</g></g><g class="pop" style="animation-name:p4">
+<ellipse cx="804.0" cy="202" rx="61" ry="9" fill="#2a0000" opacity=".45" filter="url(#soft)"/>
+<g class="bob" style="animation-delay:-2.20s">
+<polygon points="804.0,58.0 859.4,90.0 859.4,154.0 804.0,186.0 748.6,154.0 748.6,90.0" fill="#ffd98a" opacity=".55" filter="url(#glow)" class="pulse" style="animation-delay:-1.6s"/>
+<polygon points="748.6,90.0 804.0,122.0 804.0,186.0 748.6,154.0" fill="#7d0000" stroke="#fbefd5" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="804.0,122.0 859.4,90.0 859.4,154.0 804.0,186.0" fill="#b30d0d" stroke="#fbefd5" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="804.0,58.0 859.4,90.0 804.0,122.0 748.6,90.0" fill="url(#top)" stroke="#fbefd5" stroke-width="1.5" stroke-linejoin="round"/>
+<g transform="translate(748.6,90.0) matrix(.866,-.5,.866,.5,0,0)"><text x="32.0" y="32.0" dy=".35em" text-anchor="middle" font-size="21.3" font-weight="700" fill="#6b0000">CCNA</text></g>
+<g transform="translate(748.6,90.0) matrix(1,.5774,0,1,0,0)"><text x="27.7" y="36.0" text-anchor="middle" font-size="11.0" font-weight="700" fill="#fbefd5" letter-spacing=".5">CISCO</text></g>
+<g transform="translate(804.0,122.0) matrix(1,-.5774,0,1,0,0)"><text x="27.7" y="36.0" text-anchor="middle" font-size="10.2" font-weight="700" fill="#fbefd5" letter-spacing=".5">NETWORKS</text></g>
+<polygon points="804.0,58.0 859.4,90.0 804.0,122.0 748.6,90.0" fill="url(#sheen)" class="sh" style="animation-delay:2.70s"/>
+</g></g><g class="pop" style="animation-name:p5">
+<ellipse cx="968.0" cy="202" rx="61" ry="9" fill="#2a0000" opacity=".45" filter="url(#soft)"/>
+<g class="bob" style="animation-delay:-2.75s">
+<polygon points="968.0,58.0 1023.4,90.0 1023.4,154.0 968.0,186.0 912.6,154.0 912.6,90.0" fill="#ffd98a" opacity=".55" filter="url(#glow)" class="pulse" style="animation-delay:-2.0s"/>
+<polygon points="912.6,90.0 968.0,122.0 968.0,186.0 912.6,154.0" fill="#7d0000" stroke="#fbefd5" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="968.0,122.0 1023.4,90.0 1023.4,154.0 968.0,186.0" fill="#b30d0d" stroke="#fbefd5" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="968.0,58.0 1023.4,90.0 968.0,122.0 912.6,90.0" fill="url(#top)" stroke="#fbefd5" stroke-width="1.5" stroke-linejoin="round"/>
+<g transform="translate(912.6,90.0) matrix(.866,-.5,.866,.5,0,0)"><text x="32.0" y="32.0" dy=".35em" text-anchor="middle" font-size="28.0" font-weight="700" fill="#6b0000">FW</text></g>
+<g transform="translate(912.6,90.0) matrix(1,.5774,0,1,0,0)"><text x="27.7" y="36.0" text-anchor="middle" font-size="11.0" font-weight="700" fill="#fbefd5" letter-spacing=".5">FORTI</text></g>
+<g transform="translate(968.0,122.0) matrix(1,-.5774,0,1,0,0)"><text x="27.7" y="36.0" text-anchor="middle" font-size="11.0" font-weight="700" fill="#fbefd5" letter-spacing=".5">GATE</text></g>
+<polygon points="968.0,58.0 1023.4,90.0 968.0,122.0 912.6,90.0" fill="url(#sheen)" class="sh" style="animation-delay:3.18s"/>
+</g></g><g class="pop" style="animation-name:p6">
+<ellipse cx="1132.0" cy="202" rx="61" ry="9" fill="#2a0000" opacity=".45" filter="url(#soft)"/>
+<g class="bob" style="animation-delay:-3.30s">
+<polygon points="1132.0,58.0 1187.4,90.0 1187.4,154.0 1132.0,186.0 1076.6,154.0 1076.6,90.0" fill="#ffd98a" opacity=".55" filter="url(#glow)" class="pulse" style="animation-delay:-2.4s"/>
+<polygon points="1076.6,90.0 1132.0,122.0 1132.0,186.0 1076.6,154.0" fill="#7d0000" stroke="#fbefd5" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1132.0,122.0 1187.4,90.0 1187.4,154.0 1132.0,186.0" fill="#b30d0d" stroke="#fbefd5" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="1132.0,58.0 1187.4,90.0 1132.0,122.0 1076.6,90.0" fill="url(#top)" stroke="#fbefd5" stroke-width="1.5" stroke-linejoin="round"/>
+<g transform="translate(1076.6,90.0) matrix(.866,-.5,.866,.5,0,0)"><text x="32.0" y="32.0" dy=".35em" text-anchor="middle" font-size="28.0" font-weight="700" fill="#6b0000">SOC</text></g>
+<g transform="translate(1076.6,90.0) matrix(1,.5774,0,1,0,0)"><text x="27.7" y="36.0" text-anchor="middle" font-size="11.0" font-weight="700" fill="#fbefd5" letter-spacing=".5">WAZUH</text></g>
+<g transform="translate(1132.0,122.0) matrix(1,-.5774,0,1,0,0)"><text x="27.7" y="36.0" text-anchor="middle" font-size="11.0" font-weight="700" fill="#fbefd5" letter-spacing=".5">SIEM</text></g>
+<polygon points="1132.0,58.0 1187.4,90.0 1132.0,122.0 1076.6,90.0" fill="url(#sheen)" class="sh" style="animation-delay:3.66s"/>
+</g></g>
+<rect x="5" y="5" width="1270" height="230" rx="12" fill="none" stroke="#ffd98a" stroke-width="8" filter="url(#glow)" class="pulse"/>
+<rect x="3" y="3" width="1274" height="234" rx="12" fill="none" stroke="#fbefd5" stroke-width="2" stroke-opacity=".9"/>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYToyNWViMjQ5ZS1jYjYxLTQ2YWEtYTQ3MC1kMDlkZjFhOTdkYjIAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaLUTqZCAwQwMljQLCS9OrqEAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo4OWQwMTBhMy03N2UyLTQ4Y2EtYjdiNy0xOGIyMTJkNTE1OGVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNobiW7Mvj8kHQCEI8WMmDCrAAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggdaMEg7YApVTuKYQ7yJmLFkTpjjZu4r8kjhtnidfQHDekZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaEievyy3pU7quFXVILb+M9wAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIFK+eCvOXcv8muAEOC8Z8WGYVKGcMAytZauDNoLbjK0lZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GTZJZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjI1ZWIyNDllLWNiNjEtNDZhYS1hNDcwLWQwOWRmMWE5N2RiMi9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmFiOTMwMmE0LTQxODQtNDE4Mi05NTBhLTYyNjc5MWZkZGM3ZXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCB1owSDtgClVO4phDvImYsWROmONm7ivySOG2eJ19AcN6JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgggRLi95s5tu8QiuzLEeXERyGg7ZI5Q+DnRJPSiL5ow+iiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggetNbDsZbw/S2pQ08lqeXnEDoJj6VnbBSxcfyXG3AK1d0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQHOZSpdVpyYbtG3wIUjliHVWUy+DdLM3Sw9OAt5c8sOZ4Q9FlPhSInDepRxj/xZLvemfuMUj9/zDyP8xK2k+aTg=</c2pa:manifest></metadata></svg>
