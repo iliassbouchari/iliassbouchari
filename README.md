@@ -1,8 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:16171b,100:f08a3c&height=170&section=header&text=Iliass%20Bouchari&fontSize=46&fontColor=f4efe6&fontAlignY=38&desc=Systems%20%26%20Networks%20%C2%B7%20Cybersecurity%20%C2%B7%20Cloud&descSize=17&descAlignY=60" alt="Iliass Bouchari" />
+# Iliass Bouchari
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=20&pause=1200&color=F08A3C&center=true&vCenter=true&width=560&lines=Systems+and+Networks+Technician;Cybersecurity+student+(FPSB);850%2B+PCs+managed+on+a+campus+domain;Looking+for+an+internship+in+Casablanca)](https://iliassbouchari.github.io/)
+**Systems and Networks Technician · Cybersecurity · Cloud**
+
+Student in Cyber Security and Digital Trust · 850+ PCs managed · Casablanca
 
 ![Open to internships](https://img.shields.io/badge/Open%20to-internships-2ea043?style=for-the-badge)
 ![Location](https://img.shields.io/badge/Casablanca-Morocco-16171b?style=for-the-badge)
@@ -62,9 +64,3 @@ iliass bouchari: systems, networks, cybersecurity
 iliass@casablanca:~$ cat status.txt
 open to internships, hands-on, ready to start
 ```
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:f08a3c,100:16171b&height=90&section=footer" alt="" />
-
-</div>
