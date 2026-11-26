@@ -2,7 +2,7 @@
 
 # Iliass Bouchari
 
-**Systems and Networks Technician · Cybersecurity · Cloud**
+**Systems and Networks Technician · Cybersecurity · Aspiring SOC analyst**
 
 Student in Cyber Security and Digital Trust · 850+ PCs managed · Casablanca
 
@@ -20,7 +20,8 @@ Student in the Bachelor's degree in Cyber Security and Digital Trust (FPSB), and
 
 - 🏫 Currently managing **850+ PCs** on the CMC campus domain (Jan to Jun 2026)
 - 🛡️ Working with **Fortinet, Cisco and Windows Server** every day
-- 🎓 Three **Cisco CCNA** levels, with verified Credly badges
+- 🎓 Three **Cisco CCNA** levels, with verified Credly badges. Next: **CCNP**
+- 🎯 Goal: **SOC analyst**, using **Wazuh** (SIEM)
 - 🌍 French (A2) and English (B2)
 - 📫 Reach me: [Bouchariliass@gmail.com](mailto:Bouchariliass@gmail.com)
 
@@ -36,6 +37,7 @@ Student in the Bachelor's degree in Cyber Security and Digital Trust (FPSB), and
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-e95420?style=flat-square&logo=ubuntu&logoColor=white)
 ![Red Hat](https://img.shields.io/badge/Red%20Hat-ee0000?style=flat-square&logo=redhat&logoColor=white)
 ![Zabbix](https://img.shields.io/badge/Zabbix-d40000?style=flat-square&logo=zabbix&logoColor=white)
+![Wazuh](https://img.shields.io/badge/Wazuh-005571?style=flat-square)
 ![VMware ESXi](https://img.shields.io/badge/ESXi-607078?style=flat-square&logo=vmware&logoColor=white)
 
 ## Experience
