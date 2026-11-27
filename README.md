@@ -6,10 +6,10 @@
 
 **Systems and Networks Technician · Cybersecurity · Aspiring SOC analyst**
 
-Student in Cyber Security and Digital Trust · 850+ PCs managed · Casablanca
+Student in Licence Cyber Security and Digital Trust (L-CSCN, S5) · 850+ PCs managed at CMC · El Jadida, Morocco
 
 <a href="mailto:Bouchariliass@gmail.com"><img src="https://img.shields.io/badge/OPEN%20TO-INTERNSHIPS-fbefd5?style=for-the-badge&labelColor=7d0000" alt="Open to internships"></a>
-<img src="https://img.shields.io/badge/LOCATION-CASABLANCA%2C%20MOROCCO-fbefd5?style=for-the-badge&labelColor=7d0000" alt="Casablanca, Morocco">
+<img src="https://img.shields.io/badge/LOCATION-EL%20JADIDA%2C%20CASABLANCA--SETTAT%2C%20MOROCCO-fbefd5?style=for-the-badge&labelColor=7d0000" alt="El Jadida, Casablanca-Settat, Morocco">
 <a href="https://iliassbouchari.github.io/"><img src="https://img.shields.io/badge/PORTFOLIO-ILIASSBOUCHARI.GITHUB.IO-ffd98a?style=for-the-badge&labelColor=7d0000" alt="Portfolio"></a>
 <a href="https://www.linkedin.com/in/iliassbouchari/"><img src="https://img.shields.io/badge/LINKEDIN-ILIASSBOUCHARI-fbefd5?style=for-the-badge&labelColor=7d0000" alt="LinkedIn"></a>
 <a href="https://www.credly.com/users/iliass-bouchari/badges/credly"><img src="https://img.shields.io/badge/CREDLY-CCNA%20BADGES-ffd98a?style=for-the-badge&labelColor=7d0000" alt="Credly CCNA badges"></a>
@@ -21,19 +21,19 @@ Student in Cyber Security and Digital Trust · 850+ PCs managed · Casablanca
 ## About me
 
 <div align="center">
-<img src="wabi-idcard.svg" width="100%" alt="Identity card: Iliass Bouchari (WABI), Systems and Networks Technician, Cybersecurity, aspiring SOC analyst. B.Sc Cyber Security and Digital Trust, 850+ PCs managed at CMC, CCNA x3 and next CCNP, goal SOC analyst with Wazuh, French A2 and English B2, Casablanca, open to internships.">
+<img src="wabi-idcard.svg" width="100%" alt="Identity card: Iliass Bouchari (WABI), Systems and Networks Technician, Cybersecurity, aspiring SOC analyst. Licence student in Cyber Security and Digital Trust (L-CSCN, S5), 850+ PCs managed at CMC, CCNA x3, goal SOC analyst with Wazuh, English B2 and French A2, El Jadida, Casablanca-Settat, Morocco, open to internships.">
 </div>
 
 <details>
 <summary>Plain-text version</summary>
 
-Student in the Bachelor's degree in Cyber Security and Digital Trust (FPSB), and a systems and networks technician. I like building and securing real infrastructure: Active Directory, Cisco networks, Fortinet firewalls and automation that saves time on the ground.
+Student in Licence Cyber Security and Digital Trust (L-CSCN, S5), Sep 2026 – Jun 2027, at the Faculté Polydisciplinaire de Sidi Bennour (FPSB), Université Chouaib Doukkali. I build on the OFPPT Technicien Spécialisé Infrastructure Digitale (Systèmes et Réseaux, 2024 – 2026) and Cisco CCNA 1-3. I like building and securing real infrastructure: Active Directory, Cisco networks, Fortinet firewalls and automation that saves time on the ground. Based in El Jadida, Casablanca-Settat, Morocco.
 
--  Currently managing **850+ PCs** on the CMC campus domain (Jan to Jun 2026)
--  Working with **Fortinet, Cisco and Windows Server** every day
--  Three **Cisco CCNA** levels, with verified Credly badges. Next: **CCNP**
+-  Managed **850+ PCs** on the CMC campus domain (Jan–Jul 2026)
+-  Worked with **Fortinet, Cisco and Windows Server** during the CMC internship
+-  Three **Cisco CCNA** levels, with verified Credly badges
 -  Goal: **SOC analyst**, using **Wazuh** (SIEM)
--  French (A2) and English (B2)
+-  English – B2 · French – A2
 -  Reach me: [Bouchariliass@gmail.com](mailto:Bouchariliass@gmail.com)
 
 </details>
@@ -53,7 +53,7 @@ Student in the Bachelor's degree in Cyber Security and Digital Trust (FPSB), and
 ## Experience, projects and labs
 
 <div align="center">
-<img src="wabi-terminal.svg" width="100%" alt="PowerShell terminal listing experience at CMC, Cité des Métiers and KAEFER, and five projects">
+<img src="wabi-terminal.svg" width="100%" alt="PowerShell terminal listing experience at CMC (Jan to Jul 2026), Cité des Métiers et des Compétences Casablanca-Settat (CMC) (Aug to Nov 2025) and KAEFER (Jul to Aug 2024), and five projects">
 </div>
 
 <details>
@@ -63,9 +63,9 @@ Student in the Bachelor's degree in Cyber Security and Digital Trust (FPSB), and
 
 | When | Where | What |
 |---|---|---|
-| Jan to Jun 2026 | CMC | Campus domain, workstation hardening, GPO deployment, helpdesk |
-| Jul to Oct 2025 | Cité des Métiers | Systems and networks internship |
-| Jul to Aug 2024 | KAEFER | First internship |
+| Jan 2026 – Jul 2026 | Cité des Métiers et des Compétences Casablanca-Settat (CMC) | Stagiaire – Technicien Systèmes & Réseaux. Campus domain, workstation hardening, GPO deployment, helpdesk |
+| Aug 2025 – Nov 2025 | Cité des Métiers et des Compétences Casablanca-Settat (CMC) | Stagiaire Administratif (administrative internship) |
+| Jul 2024 – Aug 2024 | KAEFER | First internship |
 
 **Projects and labs**
 
