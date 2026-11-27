@@ -29,7 +29,7 @@ Student in Licence Cyber Security and Digital Trust (L-CSCN, S5) · 850+ PCs man
 
 Student in Licence Cyber Security and Digital Trust (L-CSCN, S5), Sep 2026 – Jun 2027, at the Faculté Polydisciplinaire de Sidi Bennour (FPSB), Université Chouaib Doukkali. I build on the OFPPT Technicien Spécialisé Infrastructure Digitale (Systèmes et Réseaux, 2024 – 2026) and Cisco CCNA 1-3. I like building and securing real infrastructure: Active Directory, Cisco networks, Fortinet firewalls and automation that saves time on the ground. Based in El Jadida, Casablanca-Settat, Morocco.
 
--  Managed **850+ PCs** on the CMC campus domain (Jan–Jul 2026)
+-  Managed **850+ PCs** on the CMC campus domain (Jan–Jun 2026)
 -  Worked with **Fortinet, Cisco and Windows Server** during the CMC internship
 -  Three **Cisco CCNA** levels, with verified Credly badges
 -  Goal: **SOC analyst**, using **Wazuh** (SIEM)
@@ -44,7 +44,9 @@ Student in Licence Cyber Security and Digital Trust (L-CSCN, S5), Sep 2026 – J
 <img src="wabi-stack.svg" width="100%" alt="Tech stack: Cisco, Fortinet, Windows Server, Active Directory, PowerShell, Docker, Proxmox, Ubuntu, Red Hat, Zabbix, Wazuh, VMware ESXi">
 </div>
 
-## Infrastructure I work with
+## Infrastructure and lab topology
+
+*General diagram. At CMC I worked on Active Directory, GPO deployment and an introduction to FortiGate. Wazuh, Proxmox and Zabbix on it are lab items.*
 
 <div align="center">
 <img src="wabi-network.svg" width="100%" alt="Animated network topology: Internet, FortiGate, Cisco core, server and campus switches, AD, Wazuh, Proxmox, Zabbix and PC sectors">
@@ -53,7 +55,7 @@ Student in Licence Cyber Security and Digital Trust (L-CSCN, S5), Sep 2026 – J
 ## Experience, projects and labs
 
 <div align="center">
-<img src="wabi-terminal.svg" width="100%" alt="PowerShell terminal listing experience at CMC (Jan to Jul 2026), Cité des Métiers et des Compétences Casablanca-Settat (CMC) (Aug to Nov 2025) and KAEFER (Jul to Aug 2024), and five projects">
+<img src="wabi-terminal.svg" width="100%" alt="PowerShell terminal listing experience at CMC (Jan to Jun 2026), CMC administration internship (Jul to Oct 2025) and KAEFER (Jul to Aug 2024), and five projects">
 </div>
 
 <details>
@@ -63,9 +65,9 @@ Student in Licence Cyber Security and Digital Trust (L-CSCN, S5), Sep 2026 – J
 
 | When | Where | What |
 |---|---|---|
-| Jan 2026 – Jul 2026 | Cité des Métiers et des Compétences Casablanca-Settat (CMC) | Stagiaire – Technicien Systèmes & Réseaux. Campus domain, workstation hardening, GPO deployment, helpdesk |
-| Aug 2025 – Nov 2025 | Cité des Métiers et des Compétences Casablanca-Settat (CMC) | Stagiaire Administratif (administrative internship) |
-| Jul 2024 – Aug 2024 | KAEFER | First internship |
+| 01 Jan – 24 Jun 2026 | Cité des Métiers et des Compétences Casablanca-Settat (CMC) | Stagiaire Technicien Systèmes & Réseaux. Campus domain, workstation hardening, GPO deployment, helpdesk |
+| 08 Jul – 08 Oct 2025 | Cité des Métiers et des Compétences Casablanca-Settat (CMC) | Stagiaire en Gestion et Bureautique. Admissions (1200+ candidates), Word/Excel, first-level support. Not a systems and networks internship |
+| 01 Jul – 31 Aug 2024 | KAEFER | Systèmes et Réseaux, observation internship |
 
 **Projects and labs**
 
